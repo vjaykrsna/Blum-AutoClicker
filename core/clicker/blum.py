@@ -68,7 +68,7 @@ class BlumClicker:
                 mouse.click(button=mouse.LEFT)
                 
                 # Randomized delay to mimic human behavior
-                await asyncio.sleep(random.uniform(0.05, 0.1))
+                await asyncio.sleep(random.uniform(0.04, 0.08))
                 return True
         return False
 
