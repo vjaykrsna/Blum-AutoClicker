@@ -1,5 +1,8 @@
 [<img src="https://img.shields.io/badge/python-3.11-blue">](https://www.python.org/downloads/) [<img src="https://img.shields.io/badge/python-3.12-blue">](https://www.python.org/downloads/) [<img src="https://img.shields.io/badge/python-3.13+-blue">](https://www.python.org/downloads/)
 
+# This is a fork of [REPO](https://github.com/devbutlazy/Blum-AutoClicker) by [devbutlazy](https://github.com/devbutlazy)
+### I have just simplified thigns for myself and made it work better for me.
+
 # [Blum Auto Clicker](https://t.me/blum/app?startapp=ref_hX75eRFPqv)
 
 ![image](https://github.com/user-attachments/assets/d9496bed-c1a0-4a1b-9673-1e64d0441621)
@@ -13,88 +16,8 @@
 </p>
 </div>
 
-## ☕ Donation method
-    USDT (ERC-20): 0x5F06C1c23aF7Cc644B8cBaF0e2b294CbA15CC745
-    TON: UQD2g_C_aIeZ7-zAJ7uOQJUsr538vPcd_GljLeA-iRZL7tzF
-
-## ⚡ v2 Features
-1. Better and faster detection of points;
-2. Human clicks emulation by miss-clicking sometimes;
-3. Localization to different languages;
-4. Ayugram, 64Gram, Nekogram, Telegram Desktop support;
-
-
-## 📕 Installation
-Clone this [**Repository**](https://github.com/devbutlazy/Blum-AutoClicker) and run the soft:
-```shell
-~ >>> git clone https://github.com/devbutlazy/Blum-AutoClicker  
-~ >>> cd Blum-AutoClicker
-
-
-# GNU/Linux
-~/Blum-AutoClicker >>> python3 -m venv venv # Create a virtual environment
-~/Blum-AutoClicker >>> source venv/bin/activate # Activate the venv
-~/Blum-AutoClicker >>> python3 main.py --idp # Run the soft and install dependencies
-
-# Windows
-~/Blum-AutoClicker >>> python -m venv venv # Create a virtual environment
-~/Blum-AutoClicker >>> venv\Scripts\activate # Activate the venv
-~/Blum-AutoClicker >>> python main.py --idp # Run the soft and install dependencies
-```
-
-> [!TIP]
-> If you face some errors join  **[Telegram channel](https://t.me/blogbutlazy)** and **[Telegram Chat](https://t.me/chatbutlazy)** and ask for help there.
-
-
-# ⭐ Advanced features (`core/config/config.json`)
-
-- [x] Localization to different languages. You can find the list of avaliable langs **[here](https://github.com/devbutlazy/Blum-AutoClicker/tree/v2-dev/core/localization/langs)**.
-```shell
-# GNU/Linux
-~/Blum-AutoClicker >>> python3 main.py --setlang lang # Instead of lang type the shorten available languag
-~/Blum-AutoClicker >>> python3 main.py --setlang ua # Example
-
-
-# Windows
-~/Blum-AutoClicker >>> python main.py --setlang lang # Instead of lang type the shorten available languag
-~/Blum-AutoClicker >>> python main.py --setlang ua # Example
-```
-
-- [x] Replays count configuration. You can set the amount of tickets to be used
-```shell
-# GNU/Linux
-~/Blum-AutoClicker >>> python3 main.py --replays count # Set the amount of replays
-~/Blum-AutoClicker >>> python3 main.py --replays 50 # Example
-
-# Windows
-~/Blum-AutoClicker >>> python main.py --replays count # Set the amount of replays
-~/Blum-AutoClicker >>> python main.py --replays 50 # Example
-```
-
-- [x] Replay delay configuration
-```shell
-# GNU/Linux
-~/Blum-AutoClicker >>> python3 main.py --delay delay_in_seconds # Set the delay between replays
-~/Blum-AutoClicker >>> python3 main.py --delay 5 # Example
-
-# Windows
-~/Blum-AutoClicker >>> python main.py --delay 5 # Set the delay between replays
-~/Blum-AutoClicker >>> python main.py --delay 5 # Example
-```
-
-> [!IMPORTANT]
-> You can edit this config setting manually in `core/config/config.json` file.
-
-
-<br>
-
-
-# ✍️ Contributing
-Part of what makes the open source community special are the contributions. Any contributions will be **highly appreciated!**
-
-If you have any ideas or suggestions to make, feel free to [open an issue](https://github.com/devbutlazy/Blum-AutoClicker/issues) or [submit a PR](https://github.com/devbutlazy/Blum-AutoClicker/pulls)
-
-<br>
+# Installation and other stuff
+Please go to the original repo for it [HERE](https://github.com/devbutlazy/Blum-AutoClicker)
 
 # 🤝 Special Thanks
 Without this people the developing proccess wouldn't happen so fast (or at all), so I must menion them.
@@ -102,9 +25,13 @@ Without this people the developing proccess wouldn't happen so fast (or at all),
 - [qt333](https://github.com/qt333) - helped with dogs and replay button recognition
 - [BRamil](https://github.com/BRamil1) - is responsible for Polish localization
 - [Redish](https://github.com/xxmmcxx) - is responsible for Farsi localization
-- [vjaykrsna](https://github.com/vjaykrsna) - helped with fixing the collecting only on left side issue
+- [vjaykrsna](https://github.com/vjaykrsna) - for solving tokens not beign collected on the right side
 
 <br>
+
+## ☕ Buy me a coffee 
+    USDT (ERC-20): 0x5F06C1c23aF7Cc644B8cBaF0e2b294CbA15CC745
+    TON: UQBTHDZJnuDr4-v6oc_cDRXYdqggIoQA_tLGv5z2li4DC7GI
 
 
 > [!NOTE]
